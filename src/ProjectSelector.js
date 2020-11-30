@@ -9,7 +9,7 @@ class ProjectSelector extends React.Component {
   constructor(props) {
     super(props)
     this.state = {'project':''};
-    this.content = {'': <p style={{'text-align': 'center'}}><i>Select a project for more details</i></p>,
+    this.content = {'': <p style={{'textAlign': 'center'}}><i>Select a project for more details</i></p>,
 
       'Machine Learning Watermarker' : <ul>
         <li>Built steganographic “watermark” tool using machine learning, subtly altering photos by adding a robust and invisible watermark.</li>
@@ -61,7 +61,7 @@ class ProjectSelector extends React.Component {
     items.push(<Divider />)
     for(let project in this.content) {
       if(!(project === '')) {
-        items.push(<ListItem button onClick={(e) => this.handleClick(e, project)} selected={this.state.project===project}> {project}</ListItem>)
+        items.push(<ListItem button onClick={(e) => this.handleClick(e, project)} selected={this.state.project===project} key={project}> {project}</ListItem>)
         items.push(<Divider />)
       }
     }
