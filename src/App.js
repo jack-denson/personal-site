@@ -18,20 +18,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Grid container direction="row" justify="space-between" alignItems="center">
-        <h4></h4>
         <h1>Jack Denson</h1>
-        <h4></ h4>
-      </Grid>
       </header>
       <Section className="AppSection" title = "About" titleLeft={true} image={JackRound} imAlt = "Jack Denson">
       <h3>Welcome to my personal website!</h3>
       <p> My name is Jack Denson; I am a second-year student studying Computer Science at Northeastern University.</p>
-      <p> I have a passion for software engineering, and I am particularly interested in data science, artificial intelligence and machine learning, and web development.</p>
+      <p> I have a passion for software engineering, and I am currently particularly interested in data science, artificial intelligence and machine learning, and web development - but I am interested in something new all the time!</p>
       <p> </p>
       <p> My personal interests include movies(favorites are Seth Rogen/Jonah
          Hill comedies, quirky documentaries, and the Coen brothers),
-       cooking(trying to expand my reach beyond grilled chicken), and learning new skills!</p>
+       cooking(trying to expand my reach beyond grilled chicken), staying active, and learning new skills!</p>
        <p>I really enjoy building new and fun tools and games that I can get real use out of -
         and also learn a new framework, language, or technology in the process.</p>
       </Section>
@@ -57,7 +53,7 @@ function App() {
       <Section className = "AppSection" title = "Contact" titleLeft = {false} image = {Contact} imAlt = "Contact Icon">
       <h3>Some easy ways to contact me</h3>
         <p>You can <Link href={Resume} target="_blank" rel="noopener noreferrer">check out my resume!</Link></p>
-        <p>You can email me at denson.ja@northeastern.edu</p>
+        <p>You can <Link href="mailto:denson.ja@northeastern.edu" target="_blank" rel="noopener noreferrer">email me at denson.ja@northeastern.edu</Link></p>
         <p>You can <Link href='https://www.linkedin.com/in/jack-denson' target="_blank" rel="noopener noreferrer">add me on LinkedIn</Link></p>
 
       </Section>
