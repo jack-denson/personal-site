@@ -31,9 +31,11 @@ class ProjectSelector extends React.Component {
           <li>Unfinished - got distracted by other projects about 75% through, would love to finish this project up.</li>
         </ul>,
       'Personal Website' : <ul><li>Designed and built this personal website.</li>
+          <li>Wanted to further my skills in React.js and also gain experience with deployment.</li>
           <li>Used React, JavaScript, HTML, and CSS to build the site.</li>
           <li>Used MaterialUI to make some of the components look nicer.</li>
-          <li>Planning on using AWS to deploy</li></ul>,
+          <li>Used AWS Amplify to deploy the site, which makes CD easy through Github.</li>
+          <li>Connected AWS Amplify to a Google Domains domain to serve from jdenson.com.</li></ul>,
       'Various GUI Games in Java' : <ul>
             <li>Built 5-10 simple GUI games in Java</li>
             <li>Includes clones of Tetris, Atari Breakout, Snake, and PacMan, </li>
