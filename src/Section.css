@@ -63,6 +63,7 @@
   padding-bottom: 5vh;
   width: 80%;
   font-size: calc(2px + 2vmin);
+  text-align: left;
 }
 
 h2 {
