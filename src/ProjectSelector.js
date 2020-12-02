@@ -43,14 +43,15 @@ class ProjectSelector extends React.Component {
             <li>Also built a simple menu to select from these games and launch them.</li>
             <li>Mostly built using JFrames and Java's awt library.</li>
           </ul>,
-      'Many, many more!' : <ul><li>This list is not even close to exhaustive, I have been building projects since I was 11!</li>
-      <li>I have used a number of other frameworks, languages, and technologies to build many more projects, including:</li>
+      'Many, many more!' :<div><p>This list is not even close to exhaustive, I have been building projects since I was 11!</p>
+      <p>I have used a number of other frameworks, languages, and technologies to build many more projects, including:</p>
       <ul>
       <li>An implementation of Neural Style Transfer in Python with TensorFlow(relying heavily on other implementations)</li>
       <li>A music popularity regressor built using Spotify's dataset(Using Python and Scikit-Learn for my Data Science class)</li>
       <li>Countless small games in Python and Java</li>
       <li>Many more projects, dated 2021 and beyond!</li>
-      </ul></ul>
+      </ul>
+      </div>
     }
   }
 
