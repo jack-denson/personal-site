@@ -3,7 +3,6 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import './ProjectSelector.css'
 import Divider from '@material-ui/core/Divider';
-import Watermarker from './img/watermarker.PNG'
 
 class ProjectSelector extends React.Component {
   constructor(props) {
@@ -12,44 +11,44 @@ class ProjectSelector extends React.Component {
     this.content = {'': <p style={{'textAlign': 'center'}}><i>Select a project for more details</i></p>,
 
       'Machine Learning Watermarker' : <ul>
-        <li>Built steganographic “watermark” tool using machine learning, subtly altering photos by adding a robust and invisible watermark.</li>
-        <li>One neural network would take in an image, and return an image that looks the same, but is slightly different.</li>
-        <li>The other neural network would take in an image and detect if a watermark had been added.</li>
-        <li>Built a front-end site and an API to easily access the watermarker.</li>
-        <li>Used Python(TensorFlow, Keras, NumPy, Flask), and JavaScript with React.js to build the tool.</li>
+        <li key="bullet1">Built steganographic “watermark” tool using machine learning, subtly altering photos by adding a robust and invisible watermark.</li>
+        <li key="bullet2">One neural network would take in an image, and return an image that looks the same, but is slightly different.</li>
+        <li key="bullet3">The other neural network would take in an image and detect if a watermark had been added.</li>
+        <li key="bullet4">Built a front-end site and an API to easily access the watermarker.</li>
+        <li key="bullet5">Used Python(TensorFlow, Keras, NumPy, Flask), and JavaScript with React.js to build the tool.</li>
         </ul>,
       'Database-backed Expense Tracker' : <ul>
-        <li>Built a simple expense tracking site that would store given expenses to track my spending habits.</li>
-        <li>Implemented a login page, followed by a table displaying expenses for a given user.</li>
-        <li>Used Node.js, Express.js, and a lightweight database called NEDB for the backend.</li>
-        <li>Used vanilla JavaScript, HTML, and CSS to build the front-end.</li>
+        <li key="bullet1">Built a simple expense tracking site that would store given expenses to track my spending habits.</li>
+        <li key="bullet2">Implemented a login page, followed by a table displaying expenses for a given user.</li>
+        <li key="bullet3">Used Node.js, Express.js, and a lightweight database called NEDB for the backend.</li>
+        <li key="bullet4">Used vanilla JavaScript, HTML, and CSS to build the front-end.</li>
         </ul>,
       'Multiplayer Poker Game': <ul>
-          <li>Built a multiplayer online Texas-Holdem game using Socket.io</li>
-          <li>Used Node.js for the backend, using Express.js to serve the pages and Socket.io handle the gameplay.</li>
-          <li>Used vanilla JavaScript, HTML, and CSS(with a bit of Bootstrap) on the front-end.</li>
-          <li>Unfinished - got distracted by other projects about 75% through, would love to finish this project up.</li>
+          <li key="bullet1">Built a multiplayer online Texas-Holdem game using Socket.io</li>
+          <li key="bullet2">Used Node.js for the backend, using Express.js to serve the pages and Socket.io handle the gameplay.</li>
+          <li key="bullet3">Used vanilla JavaScript, HTML, and CSS(with a bit of Bootstrap) on the front-end.</li>
+          <li key="bullet4">Unfinished - got distracted by other projects about 75% through, would love to finish this project up.</li>
         </ul>,
       'Personal Website' : <ul><li>Designed and built this personal website.</li>
-          <li>Wanted to further my skills in React.js and also gain experience with deployment.</li>
-          <li>Used React, JavaScript, HTML, and CSS to build the site.</li>
-          <li>Used MaterialUI to make some of the components look nicer.</li>
-          <li>Used AWS Amplify to deploy the site, which makes CD easy through Github.</li>
-          <li>Connected AWS Amplify to a Google Domains domain to serve from jdenson.com.</li></ul>,
+          <li key="bullet1">Wanted to further my skills in React.js and also gain experience with deployment.</li>
+          <li key="bullet2">Used React, JavaScript, HTML, and CSS to build the site.</li>
+          <li key="bullet3">Used MaterialUI to make some of the components look nicer.</li>
+          <li key="bullet4">Used AWS Amplify to deploy the site, which makes CD easy through Github.</li>
+          <li key="bullet5">Connected AWS Amplify to a Google Domains domain to serve from jdenson.com.</li></ul>,
       'Various GUI Games in Java' : <ul>
-            <li>Built 5-10 simple GUI games in Java</li>
-            <li>Includes clones of Tetris, Atari Breakout, Snake, and PacMan, </li>
-            <li>Also includes a basketball free-thrower and a connect-the-dots game of my own design(based on my graph-paper doodles)</li>
-            <li>Also built a simple menu to select from these games and launch them.</li>
-            <li>Mostly built using JFrames and Java's awt library.</li>
+            <li key="bullet1">Built 5-10 simple GUI games in Java</li>
+            <li key="bullet2">Includes clones of Tetris, Atari Breakout, Snake, and PacMan, </li>
+            <li key="bullet3">Also includes a basketball free-thrower and a connect-the-dots game of my own design(based on my graph-paper doodles)</li>
+            <li key="bullet4">Also built a simple menu to select from these games and launch them.</li>
+            <li key="bullet5">Mostly built using JFrames and Java's awt library.</li>
           </ul>,
       'Many, many more!' :<div><p>This list is not even close to exhaustive, I have been building projects since I was 11!</p>
       <p>I have used a number of other frameworks, languages, and technologies to build many more projects, including:</p>
       <ul>
-      <li>An implementation of Neural Style Transfer in Python with TensorFlow(relying heavily on other implementations)</li>
-      <li>A music popularity regressor built using Spotify's dataset(Using Python and Scikit-Learn for my Data Science class)</li>
-      <li>Countless small games in Python and Java</li>
-      <li>Many more projects, dated 2021 and beyond!</li>
+      <li key="bullet1">An implementation of Neural Style Transfer in Python with TensorFlow(relying heavily on other implementations)</li>
+      <li key="bullet2">A music popularity regressor built using Spotify's dataset(Using Python and Scikit-Learn for my Data Science class)</li>
+      <li key="bullet3">Countless small games in Python and Java</li>
+      <li key="bullet4">Many more projects, dated 2021 and beyond!</li>
       </ul>
       </div>
     }

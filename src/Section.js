@@ -9,20 +9,23 @@ class Section extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {'height': '60vh', 'mobile':(window.innerWidth < 500)}
+    this.state = {'height': '60vh', 'mobile':(window.innerWidth < 500)};
+    this.wrapperRef = React.createRef();
   }
 
   componentDidMount() {
     this.updateComponentHeight();
     window.addEventListener("resize", this.updateComponentHeight.bind(this));
+    window.addEventListener("load", this.updateComponentHeight.bind(this));
   }
 
   componentWillUnmount() {
     window.removeEventListener("resize", this.updateComponentHeight.bind(this));
+    window.addEventListener("resize", this.updateComponentHeight.bind(this));
   }
 
   updateComponentHeight() {
-    this.setState({'height': (this.refs.wrapper.clientHeight+'px'), 'mobile':(window.innerWidth < 500)})
+    this.setState({'height': (this.wrapperRef.current.clientHeight+'px'), 'mobile':(window.innerWidth < 500)})
   }
 
 
@@ -32,10 +35,10 @@ class Section extends React.Component {
     let first = this.props.titleLeft ? title : content;
     let second = this.props.titleLeft ? content : title
     if(!this.state.mobile) {
-      return <FadeIn><div className="Section" ref='wrapper'>{first}{second}</div>{console.log(this.state.mobile)}</FadeIn>
+      return <FadeIn><div className="Section" ref={this.wrapperRef}>{first}{second}</div></FadeIn>
     }
     else {
-      return <FadeIn><Paper className="Section-mobile" ref="wrapper"><h2>{this.props.title}</h2><img src={this.props.image} className='icon' alt = {this.props.imAlt}/><Divider /><div className='content-mobile'>{this.props.children}</div></Paper></FadeIn>
+      return <FadeIn><Paper className="Section-mobile" ref={this.wrapperRef}><h2>{this.props.title}</h2><img src={this.props.image} className='icon' alt = {this.props.imAlt}/><Divider /><div className='content-mobile'>{this.props.children}</div></Paper></FadeIn>
     }
   }
 }
