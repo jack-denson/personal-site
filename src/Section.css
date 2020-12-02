@@ -7,9 +7,17 @@
   margin-bottom: 30px;
   min-height: 60vh;
   display: flex;
-  height: auto;
+  /*height: auto;*/
   align-items: stretch;
   font-family: 'Jost', sans-serif;
+}
+
+.Section-mobile {
+  text-align: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 .title {
@@ -46,7 +54,15 @@
   padding-right: 10%;
   padding-top: 5vh;
   padding-bottom: 5vh;
-  width: 100%;
+  width: 80%;
+}
+.content-mobile {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 0vh;
+  padding-bottom: 5vh;
+  width: 80%;
+  font-size: calc(2px + 2vmin);
 }
 
 h2 {
