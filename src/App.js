@@ -42,10 +42,10 @@ function App() {
       <p>Java, Python, JavaScript, SQL, HTML, CSS</p>
       <h4>Frameworks, Libraries, and Miscellaneous Technologies</h4>
       <Divider />
-      <p>Node.js, APIs, Git, TensorFlow, Keras, React.js, JSX, Express.js, NumPy, Pandas, Scikit-Learn, Flask, JUnit, Socket.io, Bootstrap, Material UI</p>
+      <p>Node.js, APIs, Git, TensorFlow, Keras, React.js, JSX, NPM, virtualenv, Express.js, NumPy, Pandas, Scikit-Learn, Flask, JUnit, Socket.io, Bootstrap, Material UI</p>
       <h4>Applications</h4>
       <Divider />
-      <p>Github, Gitlab, Jupyter Notebooks, Spyder, Python IDLE, IntelliJ, Eclipse, Adobe Photoshop, Microsoft Office, Oracle VirtualBox, Postman, Atom, Sublime</p>
+      <p>Github, Gitlab, Jupyter Notebooks, Spyder, Python IDLE, IntelliJ, PyCharm, Eclipse, Adobe Photoshop, Microsoft Office, Git Bash, Oracle VirtualBox, Postman, Atom, Sublime</p>
       <h4>Systems</h4>
       <Divider />
       <p>Windows & Linux</p>
