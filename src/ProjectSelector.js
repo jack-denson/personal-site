@@ -35,6 +35,13 @@ class ProjectSelector extends React.Component {
           <li key="bullet3">Used MaterialUI to make some of the components look nicer.</li>
           <li key="bullet4">Used AWS Amplify to deploy the site, which makes CD easy through Github.</li>
           <li key="bullet5">Connected AWS Amplify to a Google Domains domain to serve from jdenson.com.</li></ul>,
+      'PDF from Image' : <ul>
+            <li key="bullet1">Built tool to convert images to arbitrary-length pdf files through a simple Express API.</li>
+            <li key="bullet2">Used JavaScript with Node.js, Express.js, and a library calledJSPdf to build the tool.</li>
+            <li key="bullet3">Plan on deploying a static front-end site using AWS Amplify, connected to a serverless backend on AWS Lambda.</li>
+            <li key="bullet4">May also need to utilize Amazon S3 to implement above site, or some form of cloud database to store PDF files.</li>
+            <li key="bullet5">Future plans may also include implementing the Twilio API, so that I can send images via MMS, and create the PDF that way.</li>
+            </ul>,
       'Various GUI Games in Java' : <ul>
             <li key="bullet1">Built 5-10 simple GUI games in Java</li>
             <li key="bullet2">Includes clones of Tetris, Atari Breakout, Snake, and PacMan, </li>
