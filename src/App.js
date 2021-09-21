@@ -22,7 +22,7 @@ function App() {
       </header>
       <Section className="AppSection" title = "About" titleLeft={true} image={JackRound} imAlt = "Jack Denson">
       <h3>Welcome to my personal website!</h3>
-      <p> My name is Jack Denson; I am a second-year student studying Computer Science at Northeastern University.</p>
+      <p> My name is Jack Denson; I am a third-year student studying Computer Science at Northeastern University.</p>
       <p> I have a passion for software engineering, and I am currently particularly interested in data science, artificial intelligence and machine learning, and web development - but I am interested in something new all the time!</p>
       <p> </p>
       <p> My personal interests include movies(favorites are Seth Rogen/Jonah
