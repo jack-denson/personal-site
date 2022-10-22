@@ -1,5 +1,4 @@
 import './App.css';
-import { Grid } from '@material-ui/core'
 import Section from './Section.js'
 import JackRound from './img/JackRound.png'
 import ProjectsIcon from './img/projects.png'
@@ -9,7 +8,7 @@ import Divider from '@material-ui/core/Divider';
 import ProjectSelector from './ProjectSelector'
 import { useEffect } from 'react'
 import Link from '@material-ui/core/Link';
-import Resume from './resume.pdf'
+import Resume from './Jack Denson - Resume.pdf'
 
 function App() {
   useEffect(() => {
@@ -22,12 +21,10 @@ function App() {
       </header>
       <Section className="AppSection" title = "About" titleLeft={true} image={JackRound} imAlt = "Jack Denson">
       <h3>Welcome to my personal website!</h3>
-      <p> My name is Jack Denson; I am a third-year student studying Computer Science at Northeastern University.</p>
-      <p> I have a passion for software engineering, and I am currently particularly interested in data science, artificial intelligence and machine learning, and web development - but I am interested in something new all the time!</p>
+      <p> My name is Jack Denson; I am a fourth-year student studying Computer Science at Northeastern University.</p>
+      <p> I have a passion for software engineering - I am particularly interested in web development, newtwoking, data science, and machine learning - but I am interested in something new all the time!</p>
       <p> </p>
-      <p> My personal interests include movies(favorites are Seth Rogen/Jonah
-         Hill comedies, quirky documentaries, and the Coen brothers),
-       cooking(trying to expand my reach beyond grilled chicken), staying active, and learning new skills!</p>
+      <p> My personal interests include movies, cooking, specialty coffee, staying active, and learning new skills!</p>
        <p>I really enjoy building new and fun tools and games that I can get real use out of -
         and also learn a new framework, language, or technology in the process.</p>
       </Section>
@@ -42,7 +39,7 @@ function App() {
       <p>Java, Python, JavaScript, SQL, HTML, CSS</p>
       <h4>Frameworks, Libraries, and Miscellaneous Technologies</h4>
       <Divider />
-      <p>Node.js, APIs, Git, Vue.js, React.js, Docker, Jenkins, ElasticSearch, PostgreSQL, TensorFlow, Keras, JSX, NPM, virtualenv, Express.js, NumPy, Pandas, Scikit-Learn, Flask, JUnit, Socket.io, Bootstrap, Material UI</p>
+      <p>Node.js, APIs, Git, Vue.js, React.js, Docker, PostgreSQL, MongodDB, HTTP, TCP, UDP, SNMP, Jenkins, ElasticSearch, TensorFlow, Keras, JSX, NPM, virtualenv, Express.js, NumPy, Pandas, Scikit-Learn, Flask, JUnit, Socket.io, Bootstrap, Material UI</p>
       <h4>Applications</h4>
       <Divider />
       <p>Github, Gitlab, Jupyter Notebooks, Spyder, Python IDLE, IntelliJ, PyCharm, Eclipse, Adobe Photoshop, Microsoft Office, Git Bash, Oracle VirtualBox, Postman, Atom, Sublime</p>
@@ -51,7 +48,7 @@ function App() {
       <p>EC2, S3, Batch, Cloudwatch, ECR, RDS, Redshift, IAM, Amazon ElasticSearch, Lambda </p>
       <h4>Systems</h4>
       <Divider />
-      <p>Windows & Linux</p>
+      <p>MacOS, Windows, Linux</p>
       </Section>
       <Section className = "AppSection" title = "Contact" titleLeft = {false} image = {Contact} imAlt = "Contact Icon">
       <h3>Some easy ways to contact me</h3>

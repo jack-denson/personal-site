@@ -9,19 +9,19 @@ class ProjectSelector extends React.Component {
     super(props)
     this.state = {'project':''};
     this.content = {'': <p style={{'textAlign': 'center'}}><i>Select a project for more details</i></p>,
-
+      'Expense Tracker & Visualizer' : <ul>
+        <li key="bullet1">Built an expense tracking site that would store given expenses to track my spending habits.</li>
+        <li key="bullet2">Implemented JWT authorization and authentication to enable multiple users</li>
+        <li key="bullet3">Used Node.js, Express.js, MongoDB, and Vue.js.</li>
+        <li key="bullet4">Visualized expense data using VegaLite, allowing dynamic configuration of plots.</li>
+        <li key="bullet5">Deployed using Heroku, and integrated with Siri and my cell phone's home screen using Scriptable</li>
+      </ul>,
       'Machine Learning Watermarker' : <ul>
         <li key="bullet1">Built steganographic “watermark” tool using machine learning, subtly altering photos by adding a robust and invisible watermark.</li>
         <li key="bullet2">One neural network would take in an image, and return an image that looks the same, but is slightly different.</li>
         <li key="bullet3">The other neural network would take in an image and detect if a watermark had been added.</li>
         <li key="bullet4">Built a front-end site and an API to easily access the watermarker.</li>
         <li key="bullet5">Used Python(TensorFlow, Keras, NumPy, Flask), and JavaScript with React.js to build the tool.</li>
-        </ul>,
-      'Database-backed Expense Tracker' : <ul>
-        <li key="bullet1">Built a simple expense tracking site that would store given expenses to track my spending habits.</li>
-        <li key="bullet2">Implemented a login page, followed by a table displaying expenses for a given user.</li>
-        <li key="bullet3">Used Node.js, Express.js, and a lightweight database called NEDB for the backend.</li>
-        <li key="bullet4">Used vanilla JavaScript, HTML, and CSS to build the front-end.</li>
         </ul>,
       'Multiplayer Poker Game': <ul>
           <li key="bullet1">Built a multiplayer online Texas-Holdem game using Socket.io</li>
@@ -37,7 +37,7 @@ class ProjectSelector extends React.Component {
           <li key="bullet5">Connected AWS Amplify to a Google Domains domain to serve from jdenson.com.</li></ul>,
       'PDF from Image' : <ul>
             <li key="bullet1">Built tool to convert images to arbitrary-length pdf files through a simple Express API.</li>
-            <li key="bullet2">Used JavaScript with Node.js, Express.js, and a library calledJSPdf to build the tool.</li>
+            <li key="bullet2">Used JavaScript with Node.js, Express.js, and a library called JSPdf to build the tool.</li>
             <li key="bullet3">Plan on deploying a static front-end site using AWS Amplify, connected to a serverless backend on AWS Lambda.</li>
             <li key="bullet4">May also need to utilize Amazon S3 to implement above site, or some form of cloud database to store PDF files.</li>
             <li key="bullet5">Future plans may also include implementing the Twilio API, so that I can send images via MMS, and create the PDF that way.</li>
