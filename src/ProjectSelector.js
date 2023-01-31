@@ -10,7 +10,7 @@ class ProjectSelector extends React.Component {
     this.state = {'project':''};
     this.content = {'': <p style={{'textAlign': 'center'}}><i>Select a project for more details</i></p>,
     'Daily Movie Game' : <ul>
-        <li key="bullet1">Designed and built a movie-centered web application(<a href="moviewalker.app">moviewalker.app</a>), where user must find a path in the movie-actor graph between two given films</li>
+        <li key="bullet1">Designed and built a movie-centered web application(<a href="https://moviewalker.app">moviewalker.app</a>), where user must find a path in the movie-actor graph between two given films</li>
         <li key="bullet2">Integrated application with third-party API for actor and film data.</li>
         <li key="bullet3">Leveraged Node.js, MongoDB, and a Redis cache for a simple and performant backend.</li>
         <li key="bullet3">Built responsive and mobile-friendly frontend using React.js and MaterialUI.</li>
