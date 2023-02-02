@@ -9,7 +9,7 @@ class Section extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {'height': '60vh', 'mobile':(window.innerWidth < 500)};
+    this.state = {'height': '60vh', 'mobile':(window.innerWidth < 675)};
     this.wrapperRef = React.createRef();
   }
 
@@ -25,7 +25,7 @@ class Section extends React.Component {
   }
 
   updateComponentHeight() {
-    this.setState({'height': (this.wrapperRef.current.clientHeight+'px'), 'mobile':(window.innerWidth < 500)})
+    this.setState({'height': (this.wrapperRef.current.clientHeight+'px'), 'mobile':(window.innerWidth < 675)})
   }
 
 
