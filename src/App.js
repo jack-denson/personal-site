@@ -32,7 +32,7 @@ function App() {
       <h3>Some fun stuff I've worked on</h3>
       <ProjectSelector />
       </Section>
-      <Section className="AppSection" title = "Technologies" titleLeft={true} image = {Technologies} imAlt = "Tech Icon">
+      <Section className="AppSection" title = "Tech" titleLeft={true} image = {Technologies} imAlt = "Tech Icon">
       <h3>Some fun tech I know</h3>
       <h4>Languages</h4>
       <Divider />
