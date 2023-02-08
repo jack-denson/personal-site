@@ -21,7 +21,7 @@ function App() {
       </header>
       <Section className="AppSection" title = "About" titleLeft={true} image={JackRound} imAlt = "Jack Denson">
       <h3>Welcome to my personal website!</h3>
-      <p> My name is Jack Denson; I am a fourth-year student studying Computer Science at Northeastern University.</p>
+      <p> My name is Jack Denson; I am Boston-based software engineer passionate about writing performant software that scales.</p>
       <p> I have a passion for software engineering - I am particularly interested in web development, newtwoking and distributed systems, data science, and machine learning - but I am interested in something new all the time!</p>
       <p> </p>
       <p> My personal interests include movies, cooking, specialty coffee, distributed systems, networking, and learning new skills!</p>
@@ -36,16 +36,17 @@ function App() {
       <h3>Some fun tech I know</h3>
       <h4>Languages</h4>
       <Divider />
-      <p>Java, Python, JavaScript, SQL, HTML, CSS</p>
+      <p>JavaScript, Python, Java, TypeScript, SQL, Bash, Groovy, R, HTML, CSS</p>
       <h4>Frameworks, Libraries, and Miscellaneous Technologies</h4>
       <Divider />
-      <p>Node.js, APIs, Git, Vue.js, React.js, Docker, PostgreSQL, MongodDB, HTTP, TCP, UDP, SNMP, Jenkins, ElasticSearch, TensorFlow, Keras, JSX, NPM, virtualenv, Express.js, NumPy, Pandas, Scikit-Learn, Flask, JUnit, Socket.io, Bootstrap, Material UI</p>
+      <p>Node.js, APIs, Git, Vue.js, React.js, Docker, PostgreSQL, MongodDB, Redis, REST APIs HTTP, TCP, UDP, SNMP, Jenkins, ElasticSearch, TensorFlow, Keras, JSX, NPM, virtualenv, Express.js, Hapi.js, NumPy, Pandas, Scikit-Learn, Flask, JUnit, Mocha, Socket.io, Bootstrap, Material UI</p>
       <h4>Applications</h4>
       <Divider />
       <p>Github, Gitlab, Jupyter Notebooks, Spyder, Python IDLE, IntelliJ, PyCharm, Eclipse, Adobe Photoshop, Microsoft Office, Git Bash, Oracle VirtualBox, Postman, Atom, Sublime</p>
       <h4>Cloud Services(AWS)</h4>
       <Divider />
-      <p>EC2, S3, Batch, Cloudwatch, ECR, RDS, Redshift, IAM, Amazon ElasticSearch, Lambda </p>
+      <p> AWS EC2, AWS S3, AWS Batch, AWS Cloudwatch, AWS ECR, AWS RDS, AWS Redshift, AWS IAM,
+AWS ElasticSearch, AWS Lambda, Heroku, Render</p>
       <h4>Systems</h4>
       <Divider />
       <p>MacOS, Windows, Linux</p>
