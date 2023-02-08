@@ -29,7 +29,7 @@ function App() {
         and also learn a new framework, language, or technology in the process.</p>
       </Section>
       <Section className="AppSection" title = "Projects" titleLeft={false} image={ProjectsIcon} imAlt = "Projects Icon">
-      <h3>Some fun stuff I've worked on</h3>
+      <h3>Personal Projects</h3>
       <ProjectSelector />
       </Section>
       <Section className="AppSection" title = "Tech" titleLeft={true} image = {Technologies} imAlt = "Tech Icon">

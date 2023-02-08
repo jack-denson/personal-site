@@ -56,11 +56,6 @@ class ProjectSelector extends React.Component {
             <li key="bullet4">Also built a simple menu to select from these games and launch them.</li>
             <li key="bullet5">Mostly built using JFrames and Java's awt library.</li>
           </ul>,
-      'Sample Online Ordering System':<ul>
-            <li key="bullet1">This project is in it's nascent stages, but I have started working on the the layout and data functionality for an online store.</li>
-            <li key="bullet2">I would love to get some exposure to online payment frameworks like Stripe, and get some experience in the e-commerce space. </li>
-            <li key="bullet3">Have started building the front-end of the site in Vue.</li>
-          </ul>,
       'Many, many more!' :<div><p>This list is not even close to exhaustive, I have been building projects since I was 11!</p>
       <p>I have used a number of other frameworks, languages, and technologies to build many more projects, including:</p>
       <ul>
